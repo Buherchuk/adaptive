@@ -1,0 +1,314 @@
+/* wrapper */
+.wrapper{
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1440px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+/* wrapper */
+
+/* header */
+.logo-burger img{
+    height: 1.8em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7.5em;
+    max-width: 1440px;
+    min-width: 320px;
+    width: 100%;
+}
+.logo-burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 0.5em;
+}
+/* header */
+/* first two blocks and logo img */
+.title-blocks-container{
+    display: flex;
+    width: 100%;
+    height: 540px;
+    margin-bottom: 3.6em;
+}
+.title-img{
+    flex-shrink: 1;
+    background-image: url('../img/Man\ in\ red\ hat.png');
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-info{
+    width: 50%;
+    background-color: #000;
+
+}
+/* first two blocks and logo img */
+.about-info{
+    display: flex;    
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.about-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 85%;
+    justify-content: space-between;
+}
+.date-logo-wrapper-text, .date-logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+.title-info-text{
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+.title-info-wrapper-text-description{
+    margin: 2% 0;
+    overflow: auto;
+}
+
+.title-info-wrapper-text-description::-webkit-scrollbar {
+    width: 3px;
+    background-color: #fff;
+}
+.about-info-wrapper input{
+    width: 12em;
+    height: 3.5em;
+    border: 1px thin;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Kanit-Light';
+    font-size: 12px;
+    margin: 3% 0;
+}
+/* text size and type */
+.date-text{
+    font-family: 'Kanit-Light';
+    font-size: 14px;
+}
+.logo-text{
+    font-family: 'Kanit-Medium';
+    text-decoration: underline;
+}
+a{
+    color: #fff;
+}
+.title-info-text{
+    font-family: 'Kanit-Medium';
+    font-size: 28px;
+}
+.title-info-text-description{
+    font-family: 'Kanit-Light';
+    font-size: 14px;
+    /* overflow: hidden; */
+}
+/* text size and type */
+/* content */
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+    height: 100%;
+    /* justify-content: space-between;
+    align-items: flex-end; */
+}
+
+/* two blocks */
+.two-blocks-text-content{
+    color: #000;
+}
+.two-blocks-container-first, .two-blocks-container-second{
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 1; */
+    padding: 1%;
+
+}
+.wrapper-two-blocks-elements{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: space-between;
+    max-width: 1144px;
+    max-height: 600px;
+    /* width: 100%; */
+}
+.two-blocks-container{
+    max-width: 1145px;
+    max-height: 600px;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    margin-top: 1.8em;
+    /* width: 100%; */
+
+}
+.two-blocks-logo{
+    padding: 0 1%;
+    font-family: 'Kanit-Medium';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.two-blocks-fitst-img, .two-blocks-second-img{
+    /* object-position: center; */
+    flex-shrink: 1;
+    max-width: 572px;
+    max-height: 368px;
+    width: 100%;
+}
+.two-blocks-date-logo, .three-blocks-date-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+.two-blocks-date, .three-blocks-date{
+    font-family: 'Kanit-Medium';
+    font-size: 12px;
+}
+.blocks-logo, .three-blocks-logo{
+    font-family: 'Kanit-Medium';
+    font-size: 12px;
+}
+.two-blocks-description{
+    font-family: 'Kanit-Light';
+    font-size: 18px;
+    margin: 4% 0;
+}
+.two-blocks-main-text-header{
+    font-family: 'Kanit-Medium';
+    font-size: 24px;
+    margin: 4% 0;
+}
+.three-blocks-main-text-header{
+    font-family: 'Kanit-Medium';
+    font-size: 18px;
+    margin: 2% 0;
+}
+
+
+/* two blocks */
+/* three blocks */
+
+.three-blocks-wrapper{
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.three-blocks-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+.three-blocks{
+    margin: 1%;
+}
+.three-blocks-img{
+    width: 100%;
+    max-height: 240px;
+    max-width: 363px;
+}
+.see-all-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.see-all-button{
+    height: 45px;
+    width: 240px;
+    background-color: #303030;
+    color: #fff;
+    font-family: 'Kanit-Medium';
+    font-size: 14px;
+}
+
+/* three blocks */
+
+/* two-blocks */
+.two-blocks-wrapper{
+    margin: 5% 0;
+}
+.two-blocks-container{
+    display: flex;
+}
+.two-blocks-first, .two-blocks-second{
+    max-height: 360px;
+    max-width: 575px;
+    width: 100%;
+}
+.two-blocks-first-img{
+    width: 100%;
+    background-size: contain;
+}
+.two-blocks-second{
+    background-color: #000;
+}
+.two-blocks-second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2%;
+}
+.subscribe-button{
+    font-family: 'Kanit-Medium';
+    font-size: 14px;
+    margin: 2%;
+    height: 45px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+}
+.two-blocks-second-header{
+    font-family: 'Kanit-Medium';
+    font-size: 34px;
+    margin: 2%;
+    color: #fff;
+}
+
+.margin-top{
+    margin-top: 0;
+}
+
+/* two-blocks */
+
+
+
+/* content */
+/* footer */
+.footer{
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    justify-content: center;
+    height: 144px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.logo-suffix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.footer-text{
+    margin: 41px 0 5px 0;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-family: "Kanit-Light";
+}
+/* footer */
